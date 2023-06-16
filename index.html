@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <title>
+            Kristin Magarry's Portfolio
+        </title>
+        </head>
+        <body>
+            <main>
+            <header>
+            <nav class="topnav" id="portfolioTopnav">
+                <div class="navbar-brand">My Portfolio Example</div>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+            <ul class="navbar-menu">
+           <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Accomplishments">Accomplishments</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            </ul>
+            </nav>
+            </header>
+            <section class="bgimage" id="home">
+                <div class="container-fluid">
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 class="hero_title">Kristin Magarry</h2>
+                        <p class="hero_desc">PhD student and communications professional</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!--About Section-->
+            <div id="aboutsection">
+                <h2 id="About" class="heading uppercase">About</h2>
+            <p>I am an experienced communications professional primarily working in the non-profit space specialising in <em>social emotional wellbeing</em>. I am currently working on Biobot Academy, a project that aims to empower primary school teachers by giving them <strong>effective, easy-to-use resources</strong> that help children develop their social emotional learning skills. It is my dream to be part of a team that helps build a more empathetic future for all.</p>
+            <br>
+            <br>
+            </div>
+            <!--Skills Section-->
+            <section id="Skills">
+            <h2 id="Skills" class="heading uppercase">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Data analysis</li>
+                <li>Project management</li>
+                <li>Report writing</li>
+            </ul>
+            </div>
+            <div class="skill-card">
+            <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Relationship building</li>
+                <li>Time management</li>
+                <li>Problem solving</li>
+            </ul>
+            </div>
+            <div class="skill-card">
+            <h4>Technical skills</h4>
+            <ul class="list">
+                <li>Microsoft Excel proficiency</li>
+                <li>Written communication</li>
+                <li>Video editing</li>
+                <li>Graphic design</li>
+            </ul>
+            </div>
+        </section>
+            <!--Accomplishment Section-->
+            <div id="accomplishmentsection">
+            <h2 id="Accomplishments" class="accomplishments">Accomplishments</h2>
+            <table>
+                <tr>
+                    <th scope="col">Publications</th>
+                    <th scope="col">Awards</th>
+                    <th scope="col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>NA</td>
+                    <td>CSIRO Industry PhD scholarship</td>
+                    <td>NA</td>
+                </tr>
+            </table>
+            <section id="codingexamples">
+                <h2 id="Coding" class="heading uppercase">Coding Examples</h2>
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+            </div>
+        </section>
+            <!--Contact Section-->
+            <section id="contact">
+            <div id="contactsection">
+            <h2 id="Contact" class="heading uppercase">Contact</h2>
+            <a href="https://www.google.com/"target="_blank">Coming soon!</a>
+            <p></p>
+            <form>
+                <label for="name">*Name:</label>
+                <br>
+                <input type="text" name ="name-text-field" id="name" required>
+                <br>
+                <br>
+                <label for="email">*Email:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br>
+                <br>
+                <label for="mobile">Mobile (optional):</label>
+                <br>
+                <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10-16}">
+                <br>
+                <br>
+                <label for="message">*Leave your message below:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+            </div>
+        </section>
+            </main>
+            <script src="./nav.js"></script>
+        </body>
+</html>

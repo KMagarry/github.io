@@ -1,0 +1,255 @@
+h2{
+    color: midnightblue;
+    font-family: Arial;
+}
+p{
+    color:navy;
+    font-size: 15px;
+    font-style: italic;
+}
+.heading{
+    color:midnightblue;
+}
+.uppercase{
+    text-transform: uppercase
+}
+h2.contactform{
+    font-family: bold;
+}
+.list li{
+    color: #333333;
+}
+body{
+    font-family: Arial;
+    color:#333333;
+    background-color: #87CEFA;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+    border-radius: 100%;
+}
+.accomplishments{
+    color:midnightblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4{
+    color:midnightblue;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.topnav .icon {
+
+    display: none;
+  
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links. Show the icon that should open and close the nav (.icon) */
+  
+  @media only screen and (max-width: 600px) {
+  
+    .topnav a {display: none;}
+  
+    .topnav a.icon {
+  
+      float: right;
+  
+      display: block;
+  
+    }
+  
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  
+  @media only screen and (max-width: 600px) {
+  
+    .topnav.responsive {
+  
+      position: fixed;
+  
+  }
+  
+    .topnav.responsive a.icon {
+  
+      position: absolute;
+  
+      right: 0;
+  
+      top: 0;
+  
+    }
+  
+    .topnav.responsive a {
+  
+      float: none;
+  
+      display: block;
+  
+      text-align: left;
+  
+    }
+  
+  }
+/* Background image CSS */
+.bgimage {
+  height: 99vh;
+  width: 99.5vw;
+  position: relative;
+}
+
+.bgimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 99%;
+  width: 99.5%;
+  background-image: url(../Portfolio/heroImage.jpg);
+  background-size: cover;
+  opacity: 0.6;
+}
+
+/* Text CSS above the hero image */
+.hero-text {
+  position: absolute;
+  top: 270px;
+  right: 70px;
+  text-align:right;
+}
+
+.hero_title {
+  font-size: 4.5rem;
+}
+
+.hero_desc {
+  font-size: 2rem;
+}
+.topnav {
+  background-color: #3498db;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: midnightblue
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-left: 15px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: midnightblue;
+  font-size: 1.2rem;
+}
+
+.navbar-menu li a:hover {
+  color: white;
+}
+#aboutsection{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#Skills {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.skill-card {
+  background-color: #6DA3F0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center; /* Center align the entire skill card */
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* Display in one column */
+  }
+}
+
+.skill-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center; /* Center align the heading within the skill card */
+}
+
+.skill-card ul {
+  text-align: left; /* Align the list items to the left */
+}
+
+.accomplishments {
+  color: midnightblue;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 97%;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #6495ED;
+  color: white;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #F5F5F5;
+}
+
+/* Highlight specific accomplishments */
+td.highlight {
+  background-color: #FFD700; /* Use your preferred highlight color */
+  font-weight: bold;
+}
+
+#accomplishmentsection {
+  text-align: center;
+}
+#Coding {
+text-align: center;
+}
+#contact {
+  margin-left: 20px;
+}
