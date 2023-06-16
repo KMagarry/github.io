@@ -116,7 +116,7 @@ h4{
   left: 0;
   height: 99%;
   width: 99.5%;
-  background-image: url(../Portfolio/heroImage.jpg);
+  background-image: url(heroImage.jpg);
   background-size: cover;
   opacity: 0.6;
 }
